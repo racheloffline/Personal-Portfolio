@@ -1,14 +1,18 @@
+import { Box, Typography } from "@mui/material";
 import React from "react";
-import { Typography } from "@mui/material";
-import NavBar from "../components/NavBar";
-import CustomButton from "../components/CustomButton";
+import banner from "../images/home-banner.png";
 
 export default function Home() {
   return (
-    <div>
-      <NavBar />
-      <Typography variant="h1">Home :3</Typography>
-      <CustomButton text="yeet" />
-    </div>
+    <Box
+      display={"flex"}
+      justifyContent={"center"}
+      alignItems={"center"}
+      bgcolor={"primary.main"}
+      width={"100vw"}
+      height={"100vh"}
+    >
+      <img src={banner} alt="My Portfolio" style={{ width: "80%" }} />
+    </Box>
   );
 }
