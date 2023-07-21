@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/static/css/main.b6113028.css",
-    "main.js": "/static/js/main.f66bfb60.js",
-    "static/js/787.fb771931.chunk.js": "/static/js/787.fb771931.chunk.js",
+    "main.css": "/static/css/main.c975dbba.css",
+    "main.js": "/static/js/main.4def1173.js",
+    "static/js/27.fe725432.chunk.js": "/static/js/27.fe725432.chunk.js",
     "static/media/paxos-demo.png": "/static/media/paxos-demo.b4882646363c3b479a1f.png",
     "static/media/eat-together-demo.png": "/static/media/eat-together-demo.b3dc67346c866f0b85ea.png",
     "static/media/maps-demo.png": "/static/media/maps-demo.94fbce836f843759f9c0.png",
@@ -33,13 +33,10 @@
     "static/media/lato-latin-ext-400-normal.woff2": "/static/media/lato-latin-ext-400-normal.361f3dbb9db6a5980326.woff2",
     "static/media/lato-latin-ext-400-italic.woff": "/static/media/lato-latin-ext-400-italic.5676ca28f98a85fddf87.woff",
     "static/media/lato-latin-ext-400-normal.woff": "/static/media/lato-latin-ext-400-normal.c62d8b2772865c9ac5ba.woff",
-    "index.html": "/index.html",
-    "main.b6113028.css.map": "/static/css/main.b6113028.css.map",
-    "main.f66bfb60.js.map": "/static/js/main.f66bfb60.js.map",
-    "787.fb771931.chunk.js.map": "/static/js/787.fb771931.chunk.js.map"
+    "index.html": "/index.html"
   },
   "entrypoints": [
-    "static/css/main.b6113028.css",
-    "static/js/main.f66bfb60.js"
+    "static/css/main.c975dbba.css",
+    "static/js/main.4def1173.js"
   ]
 }
