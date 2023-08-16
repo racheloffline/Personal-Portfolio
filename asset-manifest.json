@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.c975dbba.css",
-    "main.js": "/static/js/main.4def1173.js",
+    "main.js": "/static/js/main.fc5fcb99.js",
     "static/js/27.fe725432.chunk.js": "/static/js/27.fe725432.chunk.js",
     "static/media/paxos-demo.png": "/static/media/paxos-demo.b4882646363c3b479a1f.png",
     "static/media/eat-together-demo.png": "/static/media/eat-together-demo.b3dc67346c866f0b85ea.png",
@@ -37,6 +37,6 @@
   },
   "entrypoints": [
     "static/css/main.c975dbba.css",
-    "static/js/main.4def1173.js"
+    "static/js/main.fc5fcb99.js"
   ]
 }
