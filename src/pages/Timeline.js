@@ -4,12 +4,13 @@ import { Box, TextField, Button, Typography } from "@mui/material";
 import {
   collection,
   addDoc,
-  getDocs,
   query,
   orderBy,
   serverTimestamp,
+  onSnapshot,
 } from "firebase/firestore";
 import { db } from "../Firebase";
+import DOMPurify from "dompurify";
 
 export default function Timeline() {
   const [formData, setFormData] = useState({
@@ -21,21 +22,20 @@ export default function Timeline() {
   const [timelinePosts, setTimelinePosts] = useState([]);
 
   useEffect(() => {
-    getDocs(query(collection(db, "timeline"), orderBy("timestamp"))).then(
-      (querySnapshot) => {
-        const newData = querySnapshot.docs.map((doc) => doc.data());
-        setTimelinePosts(newData);
-      }
-    );
+    const q = query(collection(db, "timeline"), orderBy("timestamp", "desc"));
+    onSnapshot(q, (querySnapshot) => {
+      const newData = querySnapshot.docs.map((doc) => doc.data());
+      setTimelinePosts(newData);
+    });
   }, []);
 
   const handleSubmit = (e) => {
     e.preventDefault();
     try {
       addDoc(collection(db, "timeline"), {
-        name: formData.name,
-        email: formData.email,
-        content: formData.content,
+        name: DOMPurify.sanitize(formData.name),
+        email: DOMPurify.sanitize(formData.email),
+        content: DOMPurify.sanitize(formData.content),
         timestamp: serverTimestamp(),
       }).then(console.log("Success"));
     } catch (e) {
