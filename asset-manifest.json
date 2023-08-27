@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.c975dbba.css",
-    "main.js": "/static/js/main.3c37ae48.js",
+    "main.css": "/static/css/main.0f76537a.css",
+    "main.js": "/static/js/main.6882bb1c.js",
     "static/js/27.fe725432.chunk.js": "/static/js/27.fe725432.chunk.js",
     "static/media/paxos-demo.png": "/static/media/paxos-demo.b4882646363c3b479a1f.png",
     "static/media/eat-together-demo.png": "/static/media/eat-together-demo.b3dc67346c866f0b85ea.png",
@@ -23,20 +23,20 @@
     "static/media/lato-latin-400-normal.woff2": "/static/media/lato-latin-400-normal.be36596da218e1eec01c.woff2",
     "static/media/pacifico-cyrillic-400-normal.woff2": "/static/media/pacifico-cyrillic-400-normal.12b0288f7a1df3155d42.woff2",
     "static/media/pacifico-cyrillic-ext-400-normal.woff": "/static/media/pacifico-cyrillic-ext-400-normal.846fa4697d95af9f681d.woff",
-    "static/media/lato-latin-400-italic.woff": "/static/media/lato-latin-400-italic.e5c1798b08f4e775e633.woff",
-    "static/media/lato-latin-400-normal.woff": "/static/media/lato-latin-400-normal.bed82ec070137691d9a0.woff",
+    "static/media/lato-latin-400-italic.woff": "/static/media/lato-latin-400-italic.b2c003608660cd56fd99.woff",
+    "static/media/lato-latin-400-normal.woff": "/static/media/lato-latin-400-normal.190b769c7be76a0f0dbf.woff",
     "static/media/pacifico-cyrillic-400-normal.woff": "/static/media/pacifico-cyrillic-400-normal.62a6feffdc768e3f6e65.woff",
     "static/media/mlh-logo.png": "/static/media/mlh-logo.01a66bf07f1886b80683.png",
     "static/media/pacifico-vietnamese-400-normal.woff2": "/static/media/pacifico-vietnamese-400-normal.bd5387ce81f7c383a0a3.woff2",
     "static/media/pacifico-vietnamese-400-normal.woff": "/static/media/pacifico-vietnamese-400-normal.e0ad65c3d90312b0416e.woff",
     "static/media/lato-latin-ext-400-italic.woff2": "/static/media/lato-latin-ext-400-italic.38ec51203670c85514de.woff2",
     "static/media/lato-latin-ext-400-normal.woff2": "/static/media/lato-latin-ext-400-normal.361f3dbb9db6a5980326.woff2",
-    "static/media/lato-latin-ext-400-italic.woff": "/static/media/lato-latin-ext-400-italic.5676ca28f98a85fddf87.woff",
-    "static/media/lato-latin-ext-400-normal.woff": "/static/media/lato-latin-ext-400-normal.c62d8b2772865c9ac5ba.woff",
+    "static/media/lato-latin-ext-400-italic.woff": "/static/media/lato-latin-ext-400-italic.8616b9a69937c030f490.woff",
+    "static/media/lato-latin-ext-400-normal.woff": "/static/media/lato-latin-ext-400-normal.221746f6ba5760746446.woff",
     "index.html": "/index.html"
   },
   "entrypoints": [
-    "static/css/main.c975dbba.css",
-    "static/js/main.3c37ae48.js"
+    "static/css/main.0f76537a.css",
+    "static/js/main.6882bb1c.js"
   ]
 }
